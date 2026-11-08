@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app">
+        <h1>Todo List</h1>
+        <p class="sub">Add a task, tick it off, edit it or delete it.</p>
+
+        <div class="row">
+            <input type="text" id="new" placeholder="What needs doing?" aria-label="New task">
+            <button class="primary" id="addBtn">Add task</button>
+        </div>
+
+        <ul id="list">
+            <li class="empty">No tasks yet. Type one above and press Add task.</li>
+        </ul>
+
+        <div class="count" id="count"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
